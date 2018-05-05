@@ -1,0 +1,11 @@
+export const FETCH_POSTS = "FETCH_POSTS";
+export const FETCH_POSTS_PENDING = "FETCH_POSTS_PENDING";
+export const FETCH_POSTS_SUCCESS = "FETCH_POSTS_SUCCESS";
+export const FETCH_POSTS_FAILED = "FETCH_POSTS_FAILED";
+
+export const status = {
+  INIT: "INIT",
+  PENDING: "PENDING",
+  SUCCESS: "SUCCESS",
+  FAILED: "FAILED"
+};
